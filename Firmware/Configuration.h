@@ -18,9 +18,9 @@ extern const char _sPrinterMmuName[] PROGMEM;
 // NOTE: These are ONLY used if you are not building via cmake and/or not in a git repository.
 // Otherwise the repository information takes precedence.
 #ifndef CMAKE_CONTROL
-#define FW_MAJOR 3
-#define FW_MINOR 13
-#define FW_REVISION 3
+#define FW_MAJOR 0
+#define FW_MINOR 0
+#define FW_REVISION 1
 #define FW_COMMITNR 7094
 //#define FW_FLAVOR RC      //uncomment if DEV, ALPHA, BETA or RC
 //#define FW_FLAVERSION 1     //uncomment if FW_FLAVOR is defined and versioning is needed. Limited to max 8.

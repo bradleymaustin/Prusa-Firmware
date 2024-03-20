@@ -2070,6 +2070,12 @@ static void mFilamentItem_PVB()
     mFilamentItem(PVB_PREHEAT_HOTEND_TEMP, PVB_PREHEAT_HPB_TEMP);
 }
 
+static void mFilamentItem_NYLONG()
+{
+    bFilamentPreheatState = false;
+    mFilamentItem(NYLONG_PREHEAT_HOTEND_TEMP, NYLONG_PREHEAT_HPB_TEMP);
+}
+
 void lcd_generic_preheat_menu()
 {
     MENU_BEGIN();
